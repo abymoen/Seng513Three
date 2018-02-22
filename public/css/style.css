@@ -1,0 +1,81 @@
+* {
+  box-sizing: border-box;
+  background: #DDDDDD;
+}
+body {
+   font: 13px Helvetica, Arial;
+   margin-left: 1.5%;
+}
+
+.headers {
+  display:flex;
+  justify-content: flex-start;
+}
+
+#chatHeader {
+  width:65%;
+  margin-right: 2.5%;
+}
+
+#userHeader {
+  width: 30%;
+}
+
+#informationBoxes {
+  display:flex;
+  justify-content: flex-start;
+}
+
+#messages {
+  display: inline-block;
+  list-style-type: none;
+  width:65%;
+  height: 80vh;
+  margin-right: 2.5%;
+  margin-bottom: 3%;
+  background: #AAAAAA;
+  overflow-y: scroll;
+}
+
+#messages li {
+  padding: 1% 0%;
+  background: #AAAAAA;
+}
+
+#userList {
+  display: inline-block;
+  list-style-type: none;
+  width:30%;
+  height: 80vh;
+  margin-bottom: 3%;
+  background: #AAAAAA;
+  overflow-y: scroll;
+}
+
+#userList li {
+  padding: 1% 0%;
+  background: #AAAAAA;
+}
+
+form {
+  margin: 1.5%;
+  background: #000;
+  padding: .5%;
+  position: fixed;
+  width: 96%;
+  bottom: 0;
+}
+
+form input {
+   border: 0;
+   padding: 0.5%;
+   width: 90%;
+   margin-right: .5%;
+}
+
+form button {
+  width: 9%;
+  background: rgb(130, 224, 255);
+  border: none;
+  padding: .5%;
+}
